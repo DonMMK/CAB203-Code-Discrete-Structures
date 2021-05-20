@@ -4,3 +4,4 @@ def GED(x, y):
     else:
         z = x % y
         GED(y, z)
+        return z
